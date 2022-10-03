@@ -330,7 +330,7 @@ var getStyle = function getStyle(feature) {
   }
 
   return {
-    color: "hsla(".concat(hue, ", 75%, 50%)")
+    color: "hsl(".concat(hue, ", 75%, 50%)")
   };
 };
 

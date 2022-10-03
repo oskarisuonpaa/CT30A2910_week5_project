@@ -100,7 +100,7 @@ const getStyle = (feature) => {
     hue = 120;
   }
   return {
-    color: `hsla(${hue}, 75%, 50%)`,
+    color: `hsl(${hue}, 75%, 50%)`,
   };
 };
 
